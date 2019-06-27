@@ -97,9 +97,8 @@ hexo.extend.filter.register('after_post_render', function encrypt (data) {
     data.template = data.template.replace('{{noContentError}}', data.noContentError);
 
     data.content = data.template;
-    data.content += `<script src="${hexo.config.root}lib/crypto-js.js"></script>`;
-    data.content += `<script src="${hexo.config.root}lib/blog-encrypt.js"></script>`;
-    data.content += `<link href="${hexo.config.root}css/blog-encrypt.css" rel="stylesheet" type="text/css">`;
+    
+    delete data.toc;
 
     data.more = data.abstract;
     data.excerpt = data.more;
