@@ -1,0 +1,43 @@
+{
+  "author": {
+    "name": "luoyayu"
+  },
+  "bugs": {
+    "url": "https://github.com/Luoyayu/hexo-blog-encrypt/issues"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "hexo-fs": "^0.2.3",
+    "hexo-log": "^0.2.0"
+  },
+  "description": "Yet, just another blog encrypt plugin for hexo compatible with theme inside",
+  "homepage": "https://github.com/Luoyayu/hexo-blog-encrypt#readme",
+  "keywords": [
+    "encrypt",
+    "blog",
+    "hexo",
+    "inside"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "gavinhty@gmail.com",
+      "name": "luoyayu"
+    }
+  ],
+  "name": "hexo-blog-encrypt-with-inside",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:Luoyayu/hexo-blog-encrypt.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .js ./"
+  },
+  "version": "1.0.1",
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  }
+}
